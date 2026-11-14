@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.HeroApp" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.HeroApp.Splash" parent="Theme.SplashScreen">
+        <item name="android:windowSplashScreenBackground">#120C0B</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/rickandmortylogo5</item>
+        <item name="postSplashScreenTheme">@style/Theme.HeroApp</item>
+    </style>
+</resources>
